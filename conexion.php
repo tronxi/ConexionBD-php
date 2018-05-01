@@ -5,9 +5,7 @@
   <body>
     <h1>Conexion BD</h1>
     <?php
-      echo "<p>
-        hola mundo
-      </p>";
+      echo "<p>hola mundo</p>";
     ?>
   </body>
 </html>
