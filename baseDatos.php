@@ -3,7 +3,7 @@
   mysqli_select_db($con, "pruebaBaseDatos");
   /*$query = "insert into tablaPrueba (nombre) values ('.$_POST['$nombre'].')";
   mysqli_query($con, $query);*/
-  echo "nombre de variable". $_POST['$nombre'] ."texto";
+  echo "nombre de variable". $_POST['nombre'] ."texto";
   echo "<br />";
   $query = "select * from tablaPrueba";
   $resul = mysqli_query($con, $query);
