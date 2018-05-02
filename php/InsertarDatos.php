@@ -4,4 +4,5 @@
   $query = "insert into tablaPrueba (nombre) values ('".$_POST['nombre']."')";
   mysqli_query($con, $query);
   mysqli_close($con);
+  header("Location: \index.html"); 
 ?>
