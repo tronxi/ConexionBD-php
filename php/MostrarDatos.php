@@ -7,7 +7,7 @@
   $json = array();
   while($fila = mysqli_fetch_array($resul))
   {
-    echo "id: ".$fila['id']." nombre: ".$fila['nombre'];
+    echo "id: ".$fila['id']." nombre: ".htmlentities($fila['nombre']);
     echo "<br />";
     //$json[] = $fila;
   }
