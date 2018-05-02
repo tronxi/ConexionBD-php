@@ -1,7 +1,7 @@
 addEventListener('load', inicializarEventos, false);
 function inicializarEventos()
 {
-  var mostrar = document.getElementByID("mostrar");
+  var mostrar = document.getElementById("mostrar");
   mostrar.addEventListener('click', mostrarDatos, false);
 }
 
