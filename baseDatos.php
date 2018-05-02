@@ -7,7 +7,7 @@
   $resul = mysqli_query($con, $query);
   while($fila = mysqli_fetch_array($resul))
   {
-    echo "id: ".$fila['id']."nombre: ".$fila['nombre'];
+    echo "id: ".$fila['id']." nombre: ".$fila['nombre'];
     echo "<br />";
   }
   mysqli_close($con);
