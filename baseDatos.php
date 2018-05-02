@@ -5,10 +5,13 @@
   mysqli_query($con, $query);
   $query = "select * from tablaPrueba";
   $resul = mysqli_query($con, $query);
+  $json = array();
   while($fila = mysqli_fetch_array($resul))
   {
-    echo "id: ".$fila['id']." nombre: ".$fila['nombre'];
-    echo "<br />";
+    /*echo "id: ".$fila['id']." nombre: ".$fila['nombre'];
+    echo "<br />";*/
+    $json[] = $fila;
   }
+  echo json_encode($json);
   mysqli_close($con);
 ?>
