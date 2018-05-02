@@ -12,6 +12,7 @@
     echo "<br />";*/
     $json[] = $fila;
   }
-  echo json_encode($json);
+  $json = json_encode($json);
+  echo json_decode($json)
   mysqli_close($con);
 ?>
