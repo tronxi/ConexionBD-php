@@ -8,7 +8,7 @@ function inicializarEventos()
 function mostrarDatos(e)
 {
   e.preventDefault();
-  var url = e.target.getAttribute('href');
+  var url = e.target.getAttribute('name');
   cargarDatos(url);
 }
 
