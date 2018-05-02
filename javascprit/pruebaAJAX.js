@@ -23,7 +23,7 @@ function cargarDatos(url)
 
 function procesarEventos()
 {
-  var datos = document.getElementById("detalles");
+  var datos = document.getElementById("datos");
   if(conexion.readyState == 4)
   {
     datos.innerHTML = conexion.responseText;
