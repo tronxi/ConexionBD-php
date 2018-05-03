@@ -8,7 +8,7 @@ var actualizar = setInterval(function(){mostrarDatos()}, 500)
 function mostrarDatos(e)
 {
 //  e.preventDefault();
-  var url = e.target.getAttribute('name');
+  var url = mostrar.getAttribute('name');
   console.log(url);
   cargarDatos(url);
 }
