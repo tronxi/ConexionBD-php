@@ -4,7 +4,7 @@ function inicializarEventos()
   var mostrar = document.getElementById("mostrar");
   mostrar.addEventListener('click', mostrarDatos, false);
 }
-var actualizar = setInterval(function(){mostrarDatos()}, 500)
+//var actualizar = setInterval(function(){mostrarDatos()}, 500)
 function mostrarDatos(e)
 {
 //  e.preventDefault();
