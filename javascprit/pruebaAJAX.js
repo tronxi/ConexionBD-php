@@ -31,6 +31,6 @@ function procesarEventos()
   }
   else
   {
-    datos.innerHTML = 'Cargando...';
+    //datos.innerHTML = 'Cargando...';
   }
 }
